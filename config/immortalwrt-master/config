@@ -8,14 +8,13 @@ CONFIG_LUCI_CSSTIDY=y
 CONFIG_LUCI_LANG_zh_Hans=y
 CONFIG_PACKAGE_luci-compat=y
 
-
-CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-app-mwan3=y
 CONFIG_PACKAGE_luci-app-udpxy=y
 CONFIG_PACKAGE_udpxy=y
+CONFIG_PACKAGE_igmpproxy=y
 CONFIG_DEFAULT_ipv6helper=y
 CONFIG_PACKAGE_ipv6helper=y
-CONFIG_PACKAGE_igmpproxy=y
+CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_zerotier=y
 CONFIG_PACKAGE_luci-app-ddns=y
