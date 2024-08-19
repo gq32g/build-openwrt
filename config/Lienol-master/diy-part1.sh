@@ -12,3 +12,10 @@
 # other
 # rm -rf package/utils/{ucode,fbtest}
 
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+
+#git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
+
+git clone https://github.com/rufengsuixing/luci-app-zerotier.git package/luci-app-zerotier
+
+#git clone https://github.com/nickilchen/luci-app-socat.git package/luci-app-socat
