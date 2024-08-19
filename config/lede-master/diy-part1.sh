@@ -12,3 +12,6 @@
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+#git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
+git clone https://github.com/rufengsuixing/luci-app-zerotier.git package/luci-app-zerotier
