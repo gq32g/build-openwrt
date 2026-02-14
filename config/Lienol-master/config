@@ -145,10 +145,10 @@ CONFIG_DEFAULT_ipv6helper=y
 CONFIG_PACKAGE_ipv6helper=y
 CONFIG_PACKAGE_luci-app-zerotier=y
 CONFIG_PACKAGE_zerotier=y
-CONFIG_PACKAGE_socat=y
-CONFIG_PACKAGE_luci-app-wireguard=y
-CONFIG_PACKAGE_wireguard-tools=y
-CONFIG_PACKAGE_kmod-wireguard=y
-CONFIG_PACKAGE_luci-proto-wireguard=y
-CONFIG_PACKAGE_wpad-mesh-openssl=y
-CONFIG_PACKAGE_qrencode=y
+
+CONFIG_PACKAGE_docker=y
+CONFIG_PACKAGE_docker-compose=y
+CONFIG_PACKAGE_dockerd=y
+CONFIG_PACKAGE_luci-lib-docker=y
+CONFIG_PACKAGE_luci-app-dockerman=y
+
